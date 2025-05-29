@@ -63,36 +63,35 @@ const Hero = () => {
               <div className="w-4 h-4 bg-violet-100 rounded flex items-center justify-center">
                 <span className="text-violetBrand text-xs">%</span>
               </div>
-              <span>Your Fitness Journey Starts Here</span>
+              <span>Your Healing Journey Starts Here</span>
             </div>
 
             {/* Main Headline */}
             <div className="space-y-4">
               <h1 className="text-5xl lg:text-6xl font-bold leading-tight">
                 <span className="text-gray-800">Your </span>
-                <span className="text-violetBrand">Personal</span>
+                <span className="text-violetBrand">AI </span>
                 <br />
-                <span className="text-gray-800">Guide To </span>
-                <span className="text-violetBrand">Fitness</span>
+                <span className="text-gray-800">companion for </span>
+                <span className="text-violetBrand">Mental illness</span>
               </h1>
             </div>
 
             {/* Description */}
             <p className="text-gray-600 text-lg leading-relaxed max-w-md">
-              Explore customized exercises for your fitness level. Track progress, stay motivated, 
-              and build a stronger, healthier you.
+              Talk about what’s on your mind. Get simple, thoughtful replies that help you feel better.
             </p>
 
             {/* Action Buttons */}
             <div className="flex items-center space-x-4">
               <button className="bg-violetBrand hover:bg-violet-600 text-white px-8 py-4 rounded-xl font-medium flex items-center space-x-2 transition-colors">
-                <span>Browse Exercises</span>
-                <ChevronRight className="w-5 h-5" />
+                <span>Start chat</span>
+                <Plus className="w-5 h-5" />
               </button>
               
               <button className="border border-gray-300 hover:border-violetBrand hover:text-violetBrand text-gray-700 px-6 py-4 rounded-xl font-medium flex items-center space-x-2 transition-colors">
-                <span>Create Workout</span>
-                <Plus className="w-5 h-5" />
+                <span>View Reports</span>
+                <ChevronRight className="w-5 h-5" />
               </button>
             </div>
           </div>
