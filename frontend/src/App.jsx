@@ -1,14 +1,17 @@
 import React, { useState } from 'react';
 import Hero from './components/hero';
-
+import Navbar from './components/navbar'
+import Sidebar from './components/sidebar'
 
 function App() {
   
 
   return (
-    <>
-      <Hero/>
-    </>
+    <div className="min-h-screen bg-gray-50">
+      <Sidebar />
+      <Navbar />
+      <Hero />
+    </div>
   );
 }
 

@@ -1,6 +1,6 @@
 import React from 'react';
 import { ChevronRight, Plus, MessageCircle } from 'lucide-react';
-import Navbar from './navbar';
+
 
 // Hero Component
 const Hero = () => {
@@ -32,7 +32,7 @@ const Hero = () => {
                 <div className="text-gray-400 text-sm">not in the talking mood?</div>
               </div>
               <div className="w-6 h-6 flex items-center justify-center">
-                <span className="text-gray-400">></span>
+                <span className="text-gray-400"></span>
               </div>
             </div>
           </div>
@@ -41,3 +41,5 @@ const Hero = () => {
     </div>
   );
 };
+
+export default Hero
