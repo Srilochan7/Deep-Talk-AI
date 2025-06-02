@@ -5,7 +5,7 @@ import { ChevronRight, Plus, MessageCircle } from 'lucide-react';
 // Hero Component
 const Hero = () => {
   return (
-    <div className="ml-16 mt-16 min-h-screen bg-gray-50 flex flex-col items-center justify-center">
+    <div className="ml-16  min-h-screen bg-white-50 flex flex-col items-center justify-center">
       <div className="text-center space-y-8">
         <div className="flex items-center justify-center space-x-3">
           <div className="w-12 h-12 bg-yellow-400 rounded-full"></div>
